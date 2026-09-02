@@ -197,7 +197,9 @@ html_theme_path = [sphinx_book_theme.get_html_theme_path()]
 
 html_theme_options = {
     "home_page_in_toc": True,
-    "repository_url": (repo_url := "https://github.com/ResearchDataCom/NamedEntityFinder"),
+    "repository_url": (
+        repo_url := "https://github.com/ResearchDataCom/NamedEntityFinder"
+    ),
     "path_to_docs": "docs",
     "use_edit_page_button": True,
     "use_repository_button": True,
